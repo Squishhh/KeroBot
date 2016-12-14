@@ -1,7 +1,7 @@
 require 'discordrb'
 
-keroBot = Discordrb::Commands::CommandBot.new token: 'MjU3NzQ4NjY4ODAxNzQ0ODk2.Cy_Oqg.pqBPtGYpnTNiyhYQVRLeM7pLxMU',
-                                              client_id: 257748668801744896,
+keroBot = Discordrb::Commands::CommandBot.new token: 'INSERT_TOKEN_HERE',
+                                              client_id: INSERT_CLIENT_ID_HERE,
                                               prefix: '$'
 
 keroBot.mention do |event|
